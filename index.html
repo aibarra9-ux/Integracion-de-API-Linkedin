@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - APInkedin</title>
+    <style>
+        body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f3f2ef; }
+        .login-box { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; }
+        .btn-linkedin { display: inline-block; background-color: #0a66c2; color: white; padding: 12px 24px; text-decoration: none; border-radius: 24px; font-weight: bold; margin-top: 20px; }
+        .btn-linkedin:hover { background-color: #004182; }
+    </style>
+</head>
+<body>
+
+    <div class="login-box">
+        <img src="Logotipo aplicacion.png" alt="APInkedin Logo" width="150">
+        <h2>Bienvenido a APInkedin</h2>
+        <p>Inicia sesión para continuar</p>
+        
+        <a href="https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=78ohjqhtudbxc8&redirect_uri=http://localhost/apinkedin/callback.php&state=codigo_seguro_123&scope=openid%20profile%20email" class="btn-linkedin">
+            Iniciar sesión con LinkedIn
+        </a>
+    </div>
+
+</body>
+</html>
