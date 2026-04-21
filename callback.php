@@ -4,7 +4,7 @@ session_start();
 
 // 1. TUS CREDENCIALES
 $client_id = '78ohjqhtudbxc8';
-$client_secret = 'SECRETO_OCULTO_PARA_GITHUB'; // Reemplaza esto con el secreto del portal
+$client_secret = 'Aqui va el secreto bro, pero no lo subo a GitHub'; // Reemplaza esto con el secreto del portal
 $redirect_uri = 'http://localhost/apinkedin/callback.php';
 
 // 2. RECIBIR EL CÓDIGO DE LINKEDIN
